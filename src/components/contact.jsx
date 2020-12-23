@@ -21,7 +21,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/mayllezr"
                           method="POST"
                           className="contactForm"
                         >
@@ -103,7 +103,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          I develop web sites and am looking to grow with a team
+                          I am looking to grow with a team, to develop websites and learn awesome practices along the way.
 
                           Whether you want to get in touch, talk about a project
                           collaboration, or just say hi, I'd love to hear from
@@ -121,7 +121,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          <li>
+                          {/* <li>
                             <a
                               href=""
                               target="_blank"
@@ -131,10 +131,10 @@ class Contact extends React.Component {
                                 <i className="ion-social-codepen"></i>
                               </span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/rmpcoding"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -145,7 +145,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://linkedin.com/in/rmpcoding"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
