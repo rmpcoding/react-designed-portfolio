@@ -4,7 +4,7 @@ import React from "react";
 import stock from "../img/instagram-clone.png";
 import stock1 from "../img/amazon-clone.png";
 import stock2 from "../img/ticket-issuing-system.png";
-import stock3 from "../img/image4.jpg";
+import stock3 from "../img/ticket-issuing-system.png";
 import stock4 from "../img/faq-page.png";
 import stock5 from "../img/note-taker.png";
 
@@ -88,9 +88,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-aguadeluz">
+                <a href="https://clone-f7b9a.web.app/" data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock1} alt="" className="img-fluid" />
+                    <img src={stock1} alt="Amazone clone" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -212,17 +212,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-medlingos">
+                <a href="https://ticket-system-sequelize.herokuapp.com/" data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock1} alt="" className="img-fluid" />
+                    <img src={stock3} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Sequelized Ticket System</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            Sequelize ORM MySQL Express Handlebars JavaScript
                           </span>
                         </div>
                       </div>
