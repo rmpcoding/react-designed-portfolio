@@ -88,7 +88,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://clone-f7b9a.web.app/" data-lightbox="gallery-aguadeluz">
+                <a href="https://clone-f7b9a.web.app/"  target="_blank" rel="noopener noreferrer">
                   <div className="work-img">
                     <img src={stock1} alt="Amazone clone" className="img-fluid" />
                   </div>
@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Amazon Clone</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            ReactJS CSS3 Firebase ES6<br/><br/>
+                            ReactJS Stripe Firebase ES6<br/><br/>
                           </span>{" "}
                         </div>
                       </div>
@@ -212,7 +212,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://ticket-system-sequelize.herokuapp.com/" data-lightbox="gallery-medlingos">
+                <a href="https://ticket-system-sequelize.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <div className="work-img">
                     <img src={stock3} alt="" className="img-fluid" />
                   </div>
